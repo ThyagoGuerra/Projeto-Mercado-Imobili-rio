@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css">
+
+    <title>Desenvolvedor Thyago</title>
+</head>
+<body>
+    <header>
+            <nav class="nav-bar">
+                <div class="logo">
+                    <h1>Logo</h1>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">A Empresa</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Area de Suporte</a></li>
+                    </ul>
+                </div>
+        
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()">
+                        <img class="icon" src="menu_white_36dp.svg" alt="Menu">
+                    </button>
+                </div>
+            </nav>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">A Empresa</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Fale Conosco</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Area de Suporte</a></li>
+                </ul>
+            </div>
+    </header>
+
+    <div class="inicio"> <!-- Container Pai -->
+        <h1 class="tilte-primary"> <!-- Primeiro Titulo -->
+            Mais de 7 anos atuando no mercado imobiliário
+        </h1>
+        <p class="describe"> <!-- Descrição -->
+            Com mais de 7 anos de experiência no mercado imobiliário, nossa empresa é dedicada a transformar sonhos em realidade, conectando você ao imóvel ideal ou garantindo as melhores condições em negociações. Priorizamos um atendimento personalizado, alinhando suas necessidades às melhores oportunidades do mercado, sempre com transparência, compromisso e foco nos resultados.
+        </p>
+    </div>
+
+    <div class="boxs-negociados"> <!--Container Pai -->
+        <h1 class="tilte-negociados"> <!-- Informação Inicial (Titulo principal)-->
+            Negociados
+        </h1>
+        <div class="item"> <!-- Container para fazer as modificações princiapais de cada card-->
+        <div class="items-negoci"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/CasaNegociada1.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 619.245,90</h4> <!-- Primeira descrição de valores -->
+                <h4 class="second-describe"><span class="n3">Negociado</span></h4> <!-- Informação de negociamento -->
+                <p class="describe">2 Dormitorios, 1 Banheiros, 1 Garagem, etc..</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-negoci"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/CasaNegociada2.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 723.175,90</h4> <!-- Primeira descrição de valores -->
+                <h4 class="second-describe"><span class="n3">Negociado</span></h4> <!-- Informação de negociamento -->
+                <p class="describe">2 Dormitorios, 3 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-negoci"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/CasaNegociada3.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 735.347,90</h4> <!-- Primeira descrição de valores -->
+                <h4 class="second-describe"><span class="n3">Negociado</span></h4> <!-- Informação de negociamento -->
+                <p class="describe">3 Dormitorios, 4 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="boxs-vendas"> <!--Container Pai -->
+        <h1 class="tilte-vendas"> <!-- Informação Inicial (Titulo principal)-->
+            Disponiveis
+        </h1>
+        <div class="item"> <!-- Container para fazer as modificações princiapais de cada card-->
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa1.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 859.245,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes1.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">3 Dormitorios, 3 Banheiros, 1 Garagem, etc..</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa2.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 932.675,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes2.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">6 Dormitorios, 6 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa3.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 735.347,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes3.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">3 Dormitorios, 4 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa4.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 535.347,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes4.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">2 Dormitorios, 2 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa5.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 679.245,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes5.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">3 Dormitorios, 3 Banheiros, 1 Garagem, etc..</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa6.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 532.675,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes6.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">4 Dormitorios, 2 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa7.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 735.347,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes7.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">3 Dormitorios, 4 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+
+        <div class="items-vendas"> <!-- Container para fazer a modificação ao fundo do card -->
+            <img src="assets/img/Casa8.jpg"> <!-- Imagem da casa | condominio -->
+            <div class="infos"> <!-- Container onde está as informações -->
+                <h2 class="tilte">Casa em Condomínio</h2> <!-- Titulo -->
+                <h4 class="first-describe">R$ 875.347,90</h4> <!-- Primeira descrição de valores -->
+                <a href="casaDetalhes8.html" class="atalho-btn"><button class="btn-detalhes">Detalhes</button></a> <!-- Botão detalhes -->
+                <p class="describe">5 Dormitorios, 4 Banheiros, 1 Garagem, etc...</p> <!-- Descrição das informações da casa -->
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="extras-infos"> <!-- Informação extra e importante -->
+        <img src="assets/img/ImgQuantidadePessoas.jpg"> <!-- Imagem ao lado esquerdo, para fazer um destaque para a lista em topicos -->
+        <h1 class="text">Mais de 500.000 pessoas já confiaram em nossos produtos e serviços.</h1> <!-- Informação -->
+    </div>
+
+    <div class="juntos">
+    <div class="extras-topicos"> <!-- Topicos importantes a serem considerados -->
+        <div class="list"> <!-- Listas com os topicos -->
+            <h2 class="tilte">Caracteristica</h2>
+            <li>Confiança comprovada por milhares de clientes.</li>  <!-- Topicos em Lista -->
+            <li>Ampla variedade de imóveis.</li> <!-- Topicos em Lista -->
+            <li>Equipe de especialistas à disposição.</li> <!-- Topicos em Lista -->
+            <li>Transparência em todas as etapas.</li> <!-- Topicos em Lista -->
+            <li>Condições de pagamento flexíveis.</li> <!-- Topicos em Lista -->
+            <li>Parcerias com construtoras e bancos renoamados.</li> <!-- Topicos em Lista -->
+            <li>Segurança.</li> <!-- Topicos em Lista -->
+            <li>Organização</li> <!-- Topicos em Lista -->
+            <li>Acompanhamento personalizado no pós-venda.</li> <!-- Topicos em Lista -->
+            <li><b>Entre outros...</b></li> <!-- Topicos em Lista -->
+        </div>
+        <img src="assets/img/ImgCaracteristicas.jpg"> <!-- Imagem ao lado direito, para fazer um destaque para a lista em topicos -->
+    </div>
+
+    <div class="end"> <!-- Informação final -->
+        <h2 class="tilte">Compre conosco sua próxima casa!</h2> <!-- Titulo -->
+        <a href="#" class="btnEnd"><button class="btn-end">Acesse aqui!</button></a> <!-- Botão para entrar em contato -->
+    </div>
+    </div>
+
+    <footer class="footer"> <!-- Rodapé da página -->
+        <p class="infos-footer"> <!-- Informação do footer -->
+            Linkedin: Thyago Guerra | GitHub: ThyagoGuerra - @2024
+        </p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

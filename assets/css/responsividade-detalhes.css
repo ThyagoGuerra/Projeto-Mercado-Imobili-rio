@@ -1,0 +1,670 @@
+@media screen and (min-width: 319px) and (max-width: 340px) {
+    & .arrow {
+        top: 5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+
+        & .infos {
+            & .tilte-primary {
+                font-size: 2.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+            }
+
+            & .describe {
+                padding: 0 2px 10px 2px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 341px) and (max-width: 361px) {
+    & .arrow {
+        top: 4%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+
+        & .infos {
+            & .tilte-primary {
+                font-size: 2.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+            }
+
+            & .describe {
+                padding: 0 2px 10px 2px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 362px) and (max-width: 376px) {
+    & .arrow {
+        top: 5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+
+        & .infos {
+            & .tilte-primary {
+                font-size: 2.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+            }
+
+            & .describe {
+                padding: 0 2px 10px 2px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 388px) and (max-width: 394px) {
+    & .arrow {
+        top: 4.5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+
+        & .infos {
+            & .tilte-primary {
+                font-size: 2.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+            }
+
+            & .describe {
+                padding: 0 2px 10px 2px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 429px) {
+    & .arrow {
+        top: 5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px 0 10px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 250px;
+        }
+
+        & .infos {
+            & .tilte-primary {
+                font-size: 2.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+            }
+
+            & .describe {
+                padding: 0 2px 10px 2px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 781px) {
+    & .arrow {
+        top: 8%;
+        left: 3.5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 799px) and (max-width: 810px) {
+    & .arrow {
+        top: 6.5%;
+        left: 3.5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 819px) and (max-width: 829px) {
+    & .arrow {
+        top: 7%;
+        left: 3%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 833px) and (max-width: 845px) {
+    & .arrow {
+        top: 7%;
+        left: 3%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 882px) and (max-width: 900px) {
+    & .arrow {
+        top: 8.5%;
+        left: 3%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 2px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1289px) {
+    & .arrow {
+        top: 5.5%;
+        left: 2%;
+    }
+
+    & .detalhes {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+        gap: 10px;
+        margin-top: 2%;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1359px) and (max-width: 1397px) {
+    & .arrow {
+        top: 17%;
+        left: 3.5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 40px 0 40px;
+        gap: 10px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 3rem;
+                margin-top: 1px;
+            }
+
+            & .describe-tilte {
+                font-size: 1.1rem;
+                margin-top: 4px;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 37px;
+                font-size: 1.1rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1399px) and (max-width: 1436px) {
+    & .arrow {
+        top: 15%;
+        left: 3.2%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 40px 0 40px;
+        gap: 10px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 3rem;
+                margin-top: 1px;
+            }
+
+            & .describe-tilte {
+                font-size: 1.1rem;
+                margin-top: 4px;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1450px) {
+    & .arrow {
+        top: 13.5%;
+        left: 2.5%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 30px 0 30px;
+        gap: 10px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 3rem;
+                margin-top: 1px;
+            }
+
+            & .describe-tilte {
+                font-size: 1.1rem;
+                margin-top: 4px;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1599px) and (max-width: 1620px) {
+    & .arrow {
+        top: 17%;
+        left: 2.2%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 30px 0 30px;
+        gap: 10px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 3rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1679px) and (max-width: 1690px) {
+    & .arrow {
+        top: 15.5%;
+        left: 2%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 30px 0 30px;
+        gap: 10px;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 3rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1979px) and (max-width: 1989px) {
+    & .arrow {
+        top: 5.5%;
+        left: 2%;
+    }
+
+    & .detalhes {
+        display: flex;
+        padding: 0 20px 0 20px;
+        gap: 10px;
+        margin-top: 2%;
+
+        & img {
+            width: 100%;
+            height: 450px;
+        }
+
+        & .infos {
+            max-width: none;
+
+            & .tilte-primary {
+                font-size: 4rem;
+            }
+
+            & .describe-tilte {
+                font-size: 1.2rem;
+            }
+
+            & .atalho-btn > .btn-detalhes {
+                width: 250px;
+                height: 47px;
+                font-size: 1.2rem;
+            }
+
+            & .describe {
+                padding: 0 2px 20px 2px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

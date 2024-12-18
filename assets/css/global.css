@@ -1,0 +1,18 @@
+@import url(navigation.css);
+@import url(content.css);
+@import url(detalhes.css);
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #f1f1f1;
+    overflow-x: hidden;
+}
